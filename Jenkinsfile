@@ -6,7 +6,7 @@ pipeline {
         }
     }
     stages {
-        stage('Build') {
+        stage('build') {
             steps {
                 sh 'mvn --version'
             }
